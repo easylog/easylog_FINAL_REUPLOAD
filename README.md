@@ -3,6 +3,6 @@
 Install & run:
 
 ```
-npm install
+npm install react-speech-recognition
 npm run dev
 ```
