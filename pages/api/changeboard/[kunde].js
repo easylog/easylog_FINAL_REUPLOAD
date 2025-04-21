@@ -1,5 +1,4 @@
-
-import clientPromise from '@/lib/mongodb';
+import clientPromise from '../../../lib/mongodb';
 import jwt from 'jsonwebtoken';
 
 export default async function handler(req, res) {
@@ -35,3 +34,4 @@ export default async function handler(req, res) {
 
   res.status(405).end();
 }
+
