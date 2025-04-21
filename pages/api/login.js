@@ -6,6 +6,7 @@ const users = [
   { email: 'staff@easylog.ch', password: 'staff123', role: 'staff' }
 ];
 
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
 
